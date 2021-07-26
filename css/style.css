@@ -3,7 +3,7 @@
     margin:0px;
 }
 
-.header{
+header{
     width: 100%;
     text-align: center;
     font-size: larger;
@@ -17,5 +17,46 @@
 .menu{
     list-style: none;
     display:flex;
-    
+    margin-top: 9px;
+}
+
+.menu_item{
+    width: 5%;
+    display: block;
+    margin: auto;
+    background-color: orange;
+    border-radius: 39px;
+}
+
+.menu_item:hover{
+    background-color: rgb(102, 89, 64);
+    cursor: pointer;
+}
+
+.side-bar{
+    background-color: rgb(102, 89, 64);
+    /*width:29%;*/
+    height:588px;
+    margin:10px;
+    padding: 25px;
+    border: 3px solid rgb(73, 157, 190);
+    display: grid;
+    grid-template-columns: 31% 68%;
+}
+
+.links{
+    list-style: none;
+    display: block;
+    width: 20%;
+}
+.sec{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.art{
+    width:70%;
+}
+
+.images{
+    width: 45%;
 }
