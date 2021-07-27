@@ -59,6 +59,12 @@ header{
     background-color: chocolate;
 }
 
+.art-head{
+    color: skyblue;
+    text-align: center;
+    font-family: fantasy;
+}
+
 .images{
     width: 21%;
     z-index: 1;
