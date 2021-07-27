@@ -33,9 +33,13 @@ header{
     cursor: pointer;
 }
 
+.sec{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
 .side-bar{
     background-color: rgb(102, 89, 64);
-    /*width:29%;*/
     height:588px;
     margin:10px;
     padding: 25px;
@@ -49,33 +53,41 @@ header{
     display: block;
     width: 20%;
 }
-.sec{
-    display: grid;
-    grid-template-columns: 30% 70%;
-}
+
 .art{
     position: relative;
-    width:60%;
+    background-color: chocolate;
 }
 
 .images{
-    width: 49%;
+    width: 21%;
 }
 
 #img1{
     position: absolute;
-    top: 129px;
+    top: 59px;
     left: 100px;
 }
 
 #img2{
     position: absolute;
-    top: 194px;
+    top: 124px;
     left: 259px;
+}
+#img3{
+    position: absolute;
+    top: 233px;
+    left: 253px;
 }
 
 #img4{
+    width: 26%;
     position: absolute;
-    top: 232px;
-    left: 91px;
+    top: 162px;
+    left: 68px;
+}
+#img5{
+    position: absolute;
+    top: 180px;
+    left: 452px;
 }
