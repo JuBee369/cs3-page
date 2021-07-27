@@ -54,9 +54,28 @@ header{
     grid-template-columns: 30% 70%;
 }
 .art{
-    width:70%;
+    position: relative;
+    width:60%;
 }
 
 .images{
-    width: 45%;
+    width: 49%;
+}
+
+#img1{
+    position: absolute;
+    top: 129px;
+    left: 100px;
+}
+
+#img2{
+    position: absolute;
+    top: 194px;
+    left: 259px;
+}
+
+#img4{
+    position: absolute;
+    top: 232px;
+    left: 91px;
 }
