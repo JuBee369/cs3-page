@@ -61,6 +61,14 @@ header{
 
 .images{
     width: 21%;
+    z-index: 1;
+}
+
+.container:hover .images{
+    border: 1px solid skyblue;
+    width: 31%;
+    z-index: 2;
+    cursor: pointer;
 }
 
 #img1{
